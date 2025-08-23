@@ -10,6 +10,7 @@
       - os: ubuntu-jammy
     jobs:
     - name: otel-collector
+      start_timeout: 3600
       properties:
         config: ((otel_collector_config))
         ingress:
