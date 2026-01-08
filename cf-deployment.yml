@@ -2905,6 +2905,11 @@ releases:
   url: https://bosh.io/d/github.com/bosh-packages/cf-cli-release?v=2.3.0
   version: 2.3.0
   sha1: 2b43303636f5fb9f4442d58579d19cb87a496e41
+- name: tanzu-cf-cli
+  sha1: 03ab7b405c72f88f59caa13a6122ea21446419ef
+  version: 1.1.0
+  remote_source: shared-releases-ubuntu
+  remote_path: shared-releases/ubuntu-jammy/1.894/tanzu-cf-cli/tanzu-cf-cli-1.1.0-ubuntu-jammy-1.894.tgz
 stemcells:
 - alias: default
   os: ubuntu-jammy
